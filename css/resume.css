@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', Arial;
+    font-weight: 300;
+    background-color: #f4f4f4;
+    background-image: url('https://i.imgur.com/u2oPC.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+}
+
+header {
+    padding: 20px;
+    color: white;
+}
+
+header .row {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    float: left;
+    align-items: left;
+}
+
+header a,
+header a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+header nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+header nav p {
+    color: white;
+    padding: 0px 20px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 10px;
+}
+
+.center {
+    text-align: center;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: auto;
+    padding: 10%;
+}
+
+.center h1 {
+    font-size: 125px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: white;
+    background-color: rgb(255, 160, 137);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn.btn-primary:hover {
+    background-color: rgb(181, 157, 238);
+}
+
+footer {
+    color: white;
+    font-size: 20px;
+    padding: 10;
+    align-items: baseline;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+footer .row {
+    padding-top: 20px;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+    padding: 10px;
+}
+
+footer li img {
+    width: 32px;
+    height: 32px;
+}
