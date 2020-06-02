@@ -12,8 +12,7 @@ header {
     padding: 20px;
     color: white;
     padding-bottom: 20%;
-    background-image: url('https://i.imgur.com/u2oPC.jpg');
-    background-size: cover;
+    background-color: black;
 } 
 
 header .row{
@@ -68,6 +67,9 @@ header nav p {
  
 section {
     padding: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-bottom: solid 2px;
 }
 
 section h2{
@@ -81,7 +83,9 @@ section h2{
 /* section #Experience */
 
 /* section #Skills */
-
+#skills {
+    border: 0;
+}
 
 footer {
     font-size: 20px;
