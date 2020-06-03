@@ -40,6 +40,10 @@ p {
     width: 32px;
 }
 
+ul {
+    display: ;
+}
+
 /* home */
 
 #home {
@@ -73,11 +77,11 @@ p {
 
 .showcase h1 {
     line-height: 1em;
-    padding-top: 20px;
+    padding-top: 100px;
     padding-bottom: 0;
     padding-left: 1em;
     padding-right: 1em;
-    font-size: 29px;
+    font-size: 50px;
 }
 
 .showcase p {
@@ -102,7 +106,7 @@ nav ul {
     justify-content: center;
     margin: 0;
     padding: 0;
-    padding-top: 200px;
+    padding-top: 10px;
     padding-bottom: 2px;
 }
 
@@ -144,6 +148,13 @@ nav a {
     padding: 10px;
     margin: 5px;
     border: 2px solid black;
+}
+
+/* resume */
+
+
+#education h1 {
+    text-align: center;    
 }
 
 /* footer */
@@ -210,5 +221,4 @@ footer {
         justify-content: space-evenly;
         margin-bottom: 1em;
     }
-
 }
