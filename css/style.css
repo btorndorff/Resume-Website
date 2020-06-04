@@ -33,6 +33,7 @@ h3 {
 p {
     margin: 0;
     padding: 1em 0;
+    text-align: center;
 }
 
 .logo {
@@ -44,11 +45,28 @@ ul {
     display: ;
 }
 
+.btn {
+    text-decoration: none;
+    color:black;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.btn:hover {
+    color: coral;
+    border: coral 2px solid;
+}
+
 /* home */
 
 #home {
     min-height: 450px;
 }
+
+
 
 /* bg-img */
 
@@ -122,6 +140,10 @@ nav a {
     text-decoration: none;
 }
 
+nav li:hover {
+    background: #f4f4f46c;
+}
+
 /* Section A */
 
 .section-a {
@@ -142,19 +164,27 @@ nav a {
     text-align: center;
 }
 
-.section-b a {
-    color: black;
-    text-decoration: none;
-    padding: 10px;
-    margin: 5px;
-    border: 2px solid black;
-}
+
 
 /* resume */
+#resume h1 {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
 
+#resume h2 {
+    padding: 0;
+    padding-top: 1em;
+    text-align: center;
+}
 
-#education h1 {
-    text-align: center;    
+#resume .content-wrap {
+    margin: 1em;
+    padding: 1em;
+}
+
+#resume ul {
+    padding-bottom: 10px;
 }
 
 /* footer */
@@ -162,6 +192,12 @@ nav a {
 footer {
     text-align: center;
     background: rgba(0,0,0,0.05)
+}
+
+footer h3 {
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
 }
 
 #copyright {
@@ -216,9 +252,46 @@ footer {
         width: 100%;
     }
 
+    #resume {
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+
+    #resume .content-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #resume p {
+        display: inline;
+    }
+
+    #resume ul {
+        padding: 0 20%;
+        justify-content: center;
+    }
+
+    #resume li {
+        text-align: left;
+    }
+
+    #relev-course {
+        grid-column-end: span 2;
+        text-align: left;
+        padding: 0 20%;
+    }
+
+    #video {
+        width: 30%;
+        height: 30%;
+    }
+   
     footer #contact {
         display: flex;
         justify-content: space-evenly;
         margin-bottom: 1em;
     }
+
+
 }
