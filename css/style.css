@@ -147,6 +147,7 @@ nav ul {
     padding: 0;
     padding-top: 10px;
     padding-bottom: 2px;
+    
 }
 
 nav li,
@@ -230,8 +231,8 @@ nav li:hover,
     padding: 1em;
 }
 
-#last {
-    padding: 50%;
+#skills img {
+    padding: 10px 0;
 }
 
 /* resume */
@@ -288,6 +289,13 @@ footer h3 {
 
 #social h3 {
     padding-bottom: 0;
+}
+#resume-video {
+    padding: 0 15%;
+}
+
+#resume-video iframe{
+    height: 20vw;
 }
 
 @media(min-width:1000px) {
@@ -366,6 +374,8 @@ footer h3 {
         text-align: left;
     }
 
+    
+
     #relev-course,
     #vivi {
         grid-column-end: span 2;
@@ -402,23 +412,29 @@ footer h3 {
     }
 
     #last {
-        grid-column-end: 2;
-        grid-column-start: 2;
+        margin-left: 100%;
     }
 
-    .video iframe {
-        width: 50%;
+    .video iframe,
+    .video img {
+        max-width: 100%;
         min-height: 250px;
-        align-self: flex-end;
+        align-self: center;
         justify-self: center;
     }
 
     .video {
-        align-self: center;
-        padding: 10px;
         display: flex;
         justify-content: center;
     }
-
     
+
+    #education img,
+    #experience img {
+        display: inline-block;
+        max-width: 30em;
+        height: 18em;
+        border-radius: 10%;
+        margin: 1em;
+    }
 }
